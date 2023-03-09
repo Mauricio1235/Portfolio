@@ -64,9 +64,6 @@ body{
     font-size: 36px;
     line-height: 47px;
 }
-.menu__burger{
-    display: none;
-}
 .header__list{
     display: flex;
 }
