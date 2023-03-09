@@ -1,0 +1,249 @@
+html{
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    resize: none;
+    outline: none;
+}
+.main{
+    flex-grow: 1;
+}
+body{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #171717;
+}
+.container{
+    max-width: 1188px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container-header{
+    max-width: 1273px;
+}
+.header{
+    padding-top: 28px;
+    margin-bottom: 112px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+}
+.header__list{
+    display: flex;
+}
+.header__link{
+    margin-right: 40px;
+    transition: all .3s;
+}
+.header__link:hover{
+    color: #a09d9d;
+}
+.info{
+    margin-bottom: 47px;
+}
+.info__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info__title{
+    max-width: 453px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    margin-bottom: 9px;
+}
+.info__subtitle{
+    line-height: 23px;
+    font-weight: 500;
+    color: #828282;
+}
+.info__buttons{
+    margin-top: 35px;
+}
+.button{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    background: #38b36b;
+    padding: 12px 27px;
+    margin-right: 10px;
+    transition: all .3s;
+}
+.button:hover{
+    background: #08361b;
+}
+.info__more{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #F2F2F2;
+    padding: 12px 34px;
+    transition: all .3s;
+}
+.info__more:hover{
+    border: 1px solid #08361b;
+}
+.info__img{
+    border-radius: 50%;
+    overflow: hidden;
+    background: #1E1D1D;
+    padding: 15px;
+    border: 1px solid #202020;
+}
+.about{
+    margin-bottom: 120px;  
+    text-align: center;
+}
+.about__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    margin-bottom: 38px;
+}
+.about__text{
+    max-width: 745px;
+    display: inline-block;
+}
+.about__inner{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about__img{
+    padding: 25px;
+    background: #212121;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+.about__item-name{
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.about__item-link:hover{
+    transition: all .3s;
+    color: #a09d9d;
+}
+.what{
+    margin-bottom: 133px;
+}
+.what__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    margin-bottom: 102px;
+}
+.what__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.what__item{
+    width: 349px;
+    max-height: 241px;
+    padding: 34px 0px 36px 50px;
+    background: #212121;
+    transition: all .3s;
+}
+.what__item:hover{
+    border-bottom: 6px solid #27AE60;
+}
+.what__img{
+    margin-bottom: 29px;
+}
+.what__name{
+    max-width: 200px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    color: #535353;
+}
+.projects{
+    margin-bottom: 69px;
+}
+.projects__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.projects__img{
+    height: auto;
+    width: auto;
+    transition: all .3s;
+}
+.projects__img:hover{
+    transition: all .3s;
+    transform: scale(0.99);
+}
+.projects__slider .slick-dots{
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects__slider .slick-dots button{
+    font-size: 0;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.projects__slider .slick-dots li.slick-active button{
+    background: #E15252;
+}
+.footer{
+    padding-bottom: 60px;
+}
+.footer__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    margin-bottom: 73px;
+}
+.form__button{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
